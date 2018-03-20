@@ -1,0 +1,6 @@
+#!/bin/sh
+
+echo "       Changing git transport from SSH to HTTPS in Gemfile and Gemfile.lock"
+
+sed -i -E "s|git@github.com:|https://github.com/|g" $1/Gemfile
+sed -i -E "s|git@github.com:|https://github.com/|g" $1/Gemfile.lock
