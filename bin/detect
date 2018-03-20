@@ -1,4 +1,4 @@
 #!/bin/sh
 
-echo "heroku-https-gemfile-buildpack"
+echo "https-gemfile"
 exit 0
